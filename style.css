@@ -1,0 +1,135 @@
+div {
+    background-color: white;
+    width: 75%;
+    margin:0 auto;
+    padding: 1rem 1rem 0.5rem 1rem;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgleft {
+    float:left;
+    margin: 0rem 1rem 1rem 0rem;
+}
+
+.imgright {
+    float:right;
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+h1{
+    font-size:4rem;
+    margin: 0;
+    color: #000000;
+
+    text-shadow: 0px 11px 10px rgba(53, 52, 51, 0.8);
+}
+
+h2 {
+    margin:1rem;
+    color: #000000;
+
+    text-shadow: 0px 11px 10px rgba(53, 52, 51, 0.8);
+}
+
+em {
+letter-spacing: 2px;
+}
+
+figure {
+    padding:0;
+    margin:0 auto;
+}
+
+figcaption {
+    font-size:small;
+}
+
+
+nav li{
+    width: 12rem;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px
+  }
+  
+nav a{
+    color: black;
+    text-decoration: none;
+    display:block;
+    padding: 0.05rem;
+  }
+
+nav a:visited {
+  color: black;
+  }
+
+ nav a:hover {
+    color: white;
+    background-color: black;
+  }
+
+.charlist li {
+    display: block;
+    width:12rem;
+    margin:0 auto;
+    list-style-type: none;
+  }
+
+.charlist ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+  }
+  
+.charlist li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+.charlist li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+blockquote {
+    background-color: black;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border:#CB3C13 2px solid;
+    width:300px;
+    text-align: center;
+}
+
+cite {
+    padding: 1.5rem;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px white;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: white;
+  }
